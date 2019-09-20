@@ -15,3 +15,7 @@ const regularPolygonArea = (apothem, sideLength, sideNumber) => {
 const arcLength = (radius, arcAngle) => {
     return 2*Math.PI*radius*(arcAngle/360);
 }
+
+const cylinderVolume = (radius, height) => {
+    return Math.PI*(radius*radius)*height;
+}
