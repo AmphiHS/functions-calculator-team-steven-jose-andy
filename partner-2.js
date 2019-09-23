@@ -21,6 +21,6 @@ const cylinderVolume = (radius, height) => {
 }
 
 const ftToMeters = (feet) => {
-    0.305 * feet;
+    return 0.305 * feet;
 }
 
