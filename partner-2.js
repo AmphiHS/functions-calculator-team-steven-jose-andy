@@ -28,3 +28,11 @@ const MiToKm = (miles) => {
     return 1.609 * miles;
 }
 
+const CtoF = (celsius) => {
+    return 1.8 * celsius + 32;
+}
+
+const distance = (x1, y1, x2, y2) => {
+    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+}
+
