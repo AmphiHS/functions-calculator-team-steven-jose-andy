@@ -24,3 +24,7 @@ const ftToMeters = (feet) => {
     return 0.305 * feet;
 }
 
+const MiToKm = (miles) => {
+    return 1.609 * miles;
+}
+
