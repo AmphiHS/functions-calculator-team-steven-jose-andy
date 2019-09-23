@@ -19,3 +19,8 @@ const arcLength = (radius, arcAngle) => {
 const cylinderVolume = (radius, height) => {
     return Math.PI*(radius*radius)*height;
 }
+
+const ftToMeters = (feet) => {
+    0.305 * feet;
+}
+
