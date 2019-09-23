@@ -39,3 +39,12 @@ const distance = (x1, y1, x2, y2) => {
 const distancePhysics = (intDistance, intVelocity, accel, time) => {
     return intDistance + (intVelocity * time) + ((1/2)*accel * Math.pow(time, 2));
 }
+
+const momentum = (mass, velocity) => {
+    return mass * velocity;
+}
+
+const potentialEng = (mass, gravity, height) => {
+    return mass * gravity * height;
+}
+
